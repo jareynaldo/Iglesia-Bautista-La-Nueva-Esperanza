@@ -5,3 +5,18 @@ html {
 .gold-text{
     color: #9a731b;
 }
+
+.jesus-img{
+    width: 90vw;
+    max-width: 1526px;
+    background-repeat: no-repeat;
+    
+    background-image: url("//img/tampa-pic.jpg") ;
+    
+}
+
+@media screen and (min-width: 969px) {
+    .jesus-img {
+      margin-right: 10vw;
+    }
+  }

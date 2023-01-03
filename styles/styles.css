@@ -10,6 +10,8 @@ html, body {
 #jesus-img{
     width: 90vw;
     max-width: 1526px;
+    margin: 0 5vw;
+    padding-left: auto;
     background-image: url("//img/tampa-pic.jpg") ;
 }
 .green{
@@ -22,11 +24,12 @@ html, body {
     margin-top: 10vh;
     max-width: 412px;
     width: 35vw;
+    border-radius: 15px;
     
 }
 .plan-visit-title{
     width: 33vw;
-    margin: 10vw 25vw 0;
+    margin: 2vw 25vw 0;
     text-align: center;
 }
 .our-times{
@@ -35,7 +38,7 @@ html, body {
     background: none;
     background-image: url("//img/tampa-pic.jpg") ;
  
-    background-color: #cccccc; 
+    background-color: #eeeeee; 
     height: fit-content;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -44,6 +47,16 @@ html, body {
 .row-bigol{
     display: flex;
     flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10vh;
+    background-color: #0c4d19;
+    color:  #d69c1a;
+    font-style: italic;
+    
+}
+blockquote{
+    padding: 1rem;
 }
 h4{
     text-align: center;
@@ -52,7 +65,10 @@ h4{
     margin: 5vh 5vh 0 ;
     font-size: large;
 }
-
+iframe{
+    margin-right: auto ;
+    margin: 5vh 20vw;
+}
 .wide-space{
     display: flex;
 
@@ -65,18 +81,31 @@ footer{
     width: 80vw;
     text-align: center;
     display: flex;
-    margin: 5vh 20vw ;
+    padding: 5vh 10% ;
+   background-color: #8d8d8d;
+   width: 100%;
+
+}
+.copyright{
+    background-color: #8d8d8d;
+   min-width: 100vw !important;
+   height: 5vh;
+   text-align: center;
+}
+.contact h5, .contact p{
+    margin: 10px;
+    width: 20vw;
+}
+.contact a {
+    color:black ;
+    text-decoration: none;
     
 }
-.contact{
-    margin: 10px;
-}
+
 a{
     text-decoration: none;
 }
-button{
-    
-}
+
 .give-header{
     text-align: center;
     font-style: italic;
@@ -96,6 +125,7 @@ button{
 .thanks-support{
     height: 20vh;
     padding-top: 5vh;
+    width: 100vw;
     text-align: center;
     background-color: #c6c6c6;
 }
@@ -147,8 +177,17 @@ button{
         flex-direction: column;
        
     }
+    .hide{
+        display: none;
+    }
+    footer{
+        padding: 5vh 0 ;
+    }
     .plan-visit-title{
-        margin: 10vw 20vw 0;
+        margin: 10% 30% 0;
+    }
+    .Column{
+        text-align: center;
     }
     .give-header{
         height: 33vh;
@@ -164,5 +203,8 @@ button{
   
     bottom: -1em;
     margin:2vh 30%;
+    }
+    iframe{
+        width: 40px ;
     }
   }

@@ -1,5 +1,6 @@
-html {
+html, body {
     background-color: #0c4d19;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .gold-text{
@@ -9,14 +10,63 @@ html {
 .jesus-img{
     width: 90vw;
     max-width: 1526px;
-    background-repeat: no-repeat;
-    
-    background-image: url("//img/tampa-pic.jpg") ;
+    background: url("//img/tampa-pic.jpg") ;
+}
+.green{
+    background-color: #0c4d19;
+    height: fit-content;
+}
+.white{ 
+    background-color: white;
+    height: fit-content;
+    margin-top: 10vh;
+    max-width: 412px;
+    width: 35vw;
     
 }
+.plan-visit-title{
+    width: 33vw;
+    margin: 10vh 33vw 0;
+}
+.our-times{
+    display: flex;
+    flex-direction: column;
+    background: none;
+    background-image: url("//img/tampa-pic.jpg") ;
+ 
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 500px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
+.row-bigol{
+    display: flex;
+    flex-direction: row;
+}
+.row-content{
+    margin: 5vh;
+    font-size: large;
+}
+
+.wide-space{
+    display: flex;
+
+}
+
 
 @media screen and (min-width: 969px) {
     .jesus-img {
-      margin-right: 10vw;
+      padding-right: 9vw;
+    }
+   
+  }
+  
+@media screen and (max-width: 969px) {
+
+    .wide-space{
+        display: flex;
+        flex-direction: column;
+        width: 75vw;
     }
   }

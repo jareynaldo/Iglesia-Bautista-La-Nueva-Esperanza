@@ -7,10 +7,10 @@ html, body {
     color: #9a731b;
 }
 
-.jesus-img{
+#jesus-img{
     width: 90vw;
     max-width: 1526px;
-    background: url("//img/tampa-pic.jpg") ;
+    background-image: url("//img/tampa-pic.jpg") ;
 }
 .green{
     background-color: #0c4d19;
@@ -35,10 +35,10 @@ html, body {
     background: none;
     background-image: url("//img/tampa-pic.jpg") ;
  
-    background-color: #cccccc; /* Used if the image is unavailable */
+    background-color: #cccccc; 
     height: fit-content;
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center; 
+    background-repeat: no-repeat; 
     background-size: cover; 
 }
 .row-bigol{
@@ -74,6 +74,25 @@ footer{
 a{
     text-decoration: none;
 }
+button{
+    
+}
+.give-header{
+    text-align: center;
+    font-style: italic;
+    height: 90vh;
+    padding-top: 33vh;
+    background: none;
+    background-image: url("//img/giving-img.jpg") ;
+} 
+.give-header h1{
+    font-weight: 900;
+    font-size: xx-large;
+    font-size: 60px;
+} 
+.give-header a{
+    border-radius: 0%;
+}
 
 @media screen and (min-width: 969px) {
     .jesus-img {
@@ -95,5 +114,9 @@ a{
     }
     .plan-visit-title{
         margin: 10vw 20vw 0;
+    }
+    .give-header{
+        height: 33vh;
+        padding-top: 10vh;
     }
   }

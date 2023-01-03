@@ -46,42 +46,71 @@
     </div>
 
     <section class="container">
-        <div class="container">
-            <h1>Ways To Give</h1>
-            <p class="small-dash"></p>
-            <p>Here are ways you can give to the ministry and life of our church:</p>
-        </div>
-        <div class="container">
-            <div id="list-example" class="list-group">
-                <a class="list-group-item list-group-item-action" href="#list-item-1">In-Person</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-2">Item2</a>
-                <a class="list-group-item list-group-item-action" href="#list-item-3">Item 3</a>
-                
-              </div>
-              <div data-spy="scroll" data-target="#list-example" data-offset="0" class="scrollspy-example">
-                <h4 id="list-item-1">In-Person</h4>
-                <p>Offering plates will be passed during our weekly congregational worship service.</p>
-                <h4 id="list-item-2">Online</h4>
-                <p>Click the Give button above and you will need to enter the amount you wish to give 
-                    and an email address. The next page will allow you to choose whether to give using 
-                    your checking/savings account or a credit/debit card.
+        
 
-                    Please be aware that there is a 3% fee for the church, however, you will receive 
-                    full credit for your donation. You have the option to choose how often you 
-                    would like the donation to be made. It can be a one-time gift or a recurring 
-                    contribution. You will be sent a receipt by email.</p>
-                <h4 id="list-item-3">Check</h4>
-                <p>If you currently donate by check, you can mail your check to the church. We can 
-                    also collect it every sunday during the In-Person serice.
-                </p>
+
+        <div id="accordion" class="giving-info">
+            <div class="container">
+                <h1>Ways To Give</h1>
+                <p class="small-dash"></p>
+                <p>Here are ways you can give to the ministry and life of our church:</p>
             </div>
-        </div>
+            <div class="card">
+              <div class="card-header" id="In-Person">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    In-Person
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="In-Person" data-parent="#accordion">
+                <div class="card-body">
+                    Offering plates will be passed during our weekly congregational worship service.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Online
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                <div class="card-body">
+                    Click the Give button above and you will need to enter the amount you wish to give and an email address. The next page will allow you to choose whether to give using your checking/savings account or a credit/debit card. 
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Check
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                <div class="card-body">
+                    If you currently donate by check, you can mail your check to the church. We can also collect it every sunday during the In-Person serice.
+              </div>
+            </div>
+          </div>
+
+
     </section>
-    <div class="container">
+
+
+
+    <div class="container thanks-support">
         <h1>Thank you for supporting our church! </h1>
         <p class="small-dash"></p>
         <p>If you have any questions about giving options, please call the church office at (305) 434-6332.</p>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>

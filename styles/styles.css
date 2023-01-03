@@ -93,6 +93,41 @@ button{
 .give-header a{
     border-radius: 0%;
 }
+.thanks-support{
+    height: 20vh;
+    padding-top: 5vh;
+    text-align: center;
+    background-color: #c6c6c6;
+}
+.giving-info{
+    padding-bottom: 5vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+ .small-dash {
+    background-color: #002d42;
+    content: " ";
+    width: 20%;
+    height: 2px;
+  
+    bottom: -1em;
+    margin:1vh 40%;
+}
+
+#accordion .card{
+    border-radius: 0%;
+   
+}
+.btn-link{
+    
+    --bs-btn-color:black !important;
+    text-decoration: none !important;
+}
+.card-header, .card{
+    border: none !important;
+    margin-bottom: 1.25rem;
+    font:bold;
+}
 
 @media screen and (min-width: 969px) {
     .jesus-img {
@@ -118,5 +153,16 @@ button{
     .give-header{
         height: 33vh;
         padding-top: 10vh;
+    }
+    .thanks-support{
+        padding-top: 15vh;
+        height: 40vh;
+    }
+    .small-dash {
+    width: 40%;
+    height: 2px;
+  
+    bottom: -1em;
+    margin:2vh 30%;
     }
   }

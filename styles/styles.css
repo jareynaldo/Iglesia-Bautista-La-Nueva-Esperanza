@@ -21,7 +21,7 @@ html, body {
 .white{ 
     background-color: white;
     height: fit-content;
-    margin-top: 10vh;
+    margin-top: 15vh;
     max-width: 412px;
     width: 35vw;
     border-radius: 15px;
@@ -123,9 +123,10 @@ a{
     border-radius: 0%;
 }
 .thanks-support{
-    height: 20vh;
+    height: 25vh;
     padding-top: 5vh;
-    width: 100vw;
+    padding-bottom: 5vh;
+    width: 100%;
     text-align: center;
     background-color: #c6c6c6;
 }
@@ -141,7 +142,7 @@ a{
     height: 2px;
   
     bottom: -1em;
-    margin:1vh 40%;
+    margin:3vh 40%;
 }
 
 #accordion .card{
@@ -172,6 +173,9 @@ a{
         display: flex;
         flex-direction: column;
         width: 75vw;
+    }
+    .white{
+        margin-top: 3vh;
     }
     .row-bigol{
         flex-direction: column;

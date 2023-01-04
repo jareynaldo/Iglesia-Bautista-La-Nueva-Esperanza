@@ -133,12 +133,15 @@ a{
     border-radius: 0%;
 }
 .thanks-support{
-    height: 25vh;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    height: 15vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
     width: 100%;
     text-align: center;
     background-color: #c6c6c6;
+}
+.clear{
+    background: none;
 }
 .giving-info{
     padding-bottom: 5vh;
@@ -150,9 +153,8 @@ a{
     content: " ";
     width: 20%;
     height: 2px;
-  
     bottom: -1em;
-    margin:3vh 40%;
+    margin:1vh 40%;
 }
 
 #accordion .card{
@@ -215,13 +217,10 @@ a{
         padding-top: 10vh;
     }
     .thanks-support{
-        padding-top: 15vh;
-        height: 40vh;
+        padding-bottom: 0;
+        height: 15vh;
     }
-    #locate{
-        height: 25vh;
-        padding-top: 5vh;
-    }
+
     .small-dash {
     width: 40%;
     height: 2px;

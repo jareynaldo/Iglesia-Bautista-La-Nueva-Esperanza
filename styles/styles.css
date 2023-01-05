@@ -231,7 +231,7 @@ a{
 }
 .little-text{
     font-size: small;
-    font-style: italic;
+    margin: 1rem 1rem;
     color: rgb(73, 73, 73);
     text-shadow: 0px 0px 1px rgb(190, 190, 190);
 }
@@ -307,6 +307,9 @@ a{
     }
     .map{
         width: 60vw;
+    }
+    #map{
+        margin-left: -5px;
     }
     #info-div{
         margin-top: 0;

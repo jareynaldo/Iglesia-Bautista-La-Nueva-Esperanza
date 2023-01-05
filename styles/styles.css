@@ -8,12 +8,10 @@ html, body {
 }
 
 #jesus-img{
-    width: 100vw;
+    width: 99vw;
     max-height: 80vh;
     padding-bottom: 1rem;
     margin-left: 0;
-    background: url("//img/tampa-pic.jpg");
-    background-image: url("//img/tampa-pic.jpg") ;
 }
 .contishere{
     margin-left: 0 !important;
@@ -101,9 +99,11 @@ footer{
 }
 .copyright{
     background-color: #8d8d8d;
-   min-width: 100vw !important;
-   height: 5vh;
-   text-align: center;
+    height: 5vh;
+    width: 100vw !important;
+    text-align: center;
+    margin-left: 0 !important; 
+    margin-right: 0 !important;
 }
 .contact h5, .contact p{
     margin: 10px;
@@ -176,17 +176,76 @@ a{
     font:bold;
 }
 .map{
-    width: 80vw;
+    width: 30vw;
     margin-left: 10vw;
-    height: 60vh;
+    height: 40vh;
     box-shadow: 0px 0px 10px black;
 }
+#map{
+    width: 40%;
+    flex-grow: 1;
+    margin-left: -4rem;
+}
+#contact-info{
+    background-color: white;
+    width: 80vw;
+    margin: 5vh 10vw;
+    box-shadow: 0px 0px 10px 2px black;
+    
+    
+}
+#info-div p{
+    margin: 1rem 4rem !important;
+    font-size: larger;
+}
 
+#info-div h4{
+    color: #0c4d19;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#info-div{
+   padding-bottom: 2rem; 
+   flex-grow: 1;
+   margin-top: 13vh;
+   
+    
+}
+
+.intro{
+    background-color: white;
+    width: 30vw;
+    border-radius: 2px;
+    box-shadow: 0px 0px 5px black;
+    padding: 1rem;
+    margin: 2rem;
+    height: fit-content;
+}
+.little-text{
+    font-size: small;
+    font-style: italic;
+}
+.main-flex{
+     display: flex; 
+     flex-direction: row;
+}
 
 @media screen and (min-width: 969px) {
     .jesus-img {
       padding-right: 9vw;
     }
+    #contact-info{
+        
+     display: flex; 
+    }
+    #info-div{
+        width: auto;
+        
+    }
+    
+   
    
   }
   
@@ -222,7 +281,7 @@ a{
     }
     .thanks-support{
         padding-bottom: 0;
-        height: 15vh;
+        height: 20vh;
     }
 
     .small-dash {
@@ -234,6 +293,12 @@ a{
     }
     iframe{
         width: 40px ;
+    }
+    .map{
+        width: 60vw;
+    }
+    #info-div{
+        margin-top: 0;
     }
   }
 

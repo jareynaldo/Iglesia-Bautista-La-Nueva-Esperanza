@@ -36,6 +36,9 @@ html, body {
     margin: 2vw 25vw 0;
     text-align: center;
 }
+.Column{
+    margin-bottom: 2rem;
+}
 .our-times{
     display: flex;
     flex-direction: column;

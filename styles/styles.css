@@ -267,8 +267,7 @@ a{
     flex-wrap: wrap;
 }
 .carousel {
-    width:43%;
-    height: 50vh;
+   
     margin : 2rem;
     padding-bottom: 2rem;
     border-bottom: 3px double   #8d8d8d ;
@@ -294,10 +293,17 @@ a{
         
     }
     
-   .images{
-    display: flex;
-   }
    
+   
+  }
+
+  @media screen and (min-width: 1143px) {
+    .images{
+        display: flex;
+    }
+    .carousel {
+        width:43%;
+    }
   }
   
 @media screen and (max-width: 969px) {

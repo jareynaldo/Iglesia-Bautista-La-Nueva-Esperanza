@@ -142,11 +142,12 @@ a{
 }
 .thanks-support{
     height: 15vh;
-    padding-top: 2vh;
+    padding-top: 2rem;
     padding-bottom: 2vh;
     width: 100%;
     text-align: center;
     background-color: #c6c6c6;
+    margin-top: 5rem;
 }
 .clear{
     background: none;
@@ -248,15 +249,20 @@ a{
 
 }
 
-#ministeries-welcome{
+.ministeries-welcome{
     width: 80vw;
-    height: fit-content;
+    height: fit-content !important;
     margin-left:10vw;
-    margin-right: 10vwsssss;
+    margin-right: 10vw;
     padding-bottom: 2rem;
     background-color: white;
     border-radius: 5px;
     box-shadow: 0px 0px 5px black;
+}
+.contact-hello{
+    margin-top: 5rem;
+    height: fit-content!important;
+    padding: 1rems;
 }
 
 .images{
@@ -293,6 +299,36 @@ a{
 .navbar-spacer2{
     margin-top: 3rem;
 }
+.leaders-header{
+    text-align: center;
+    background-color: white;
+    margin: 6rem 8vw 0;
+    padding-top: 1rem;
+    width: 82vw;
+    height: 5rem;
+    box-shadow: 0px 0px 5px black;
+}
+.leaders-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90vw;
+    background-color: white;
+    margin: 2rem 0;
+    box-shadow: 0px 0px 5px black;
+}
+.lideres img{
+    width: 100%;
+}
+.lideres h4{
+    margin-top: 1rem;
+    font-style: bold;
+}
+.lideres {
+    margin: 2rem 5%;
+   flex-basis: 40%;
+   text-align: center;
+}
 
 @media screen and (min-width: 969px) {
     .jesus-img {
@@ -306,8 +342,6 @@ a{
         width: auto;
         
     }
-    
-   
    
   }
 
@@ -388,6 +422,17 @@ a{
         margin: 2rem 10%;
        }
        
+       .lideres img{
+        width: 50vw;
+
+    }
+    .lideres {
+        margin: 1rem 15%;
+    }
+    .leaders-container{
+        width: 80vw!important;
+    }
+   
   }
 
   

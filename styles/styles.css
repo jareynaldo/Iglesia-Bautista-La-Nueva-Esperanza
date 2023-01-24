@@ -391,6 +391,7 @@ a{
     .give-header{
         
         padding-top: 10vh;
+        padding-bottom: 10vh;
     }
     .thanks-support{
         height: fit-content;

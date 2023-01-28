@@ -1,5 +1,5 @@
 html, body {
-    background-image: linear-gradient(rgb(255, 255, 255), #0c4d19);
+    background-image: linear-gradient(rgb(255, 255, 255), #155413);
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -19,7 +19,7 @@ html, body {
 }
 .green{
     box-shadow: 0px 0px 5px rgb(0, 0, 0);
-    background-color: #0c4d19;
+    background-color: #155413;
     height: fit-content;
 }
 .white{ 
@@ -57,7 +57,7 @@ html, body {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 10vh;
-    background-color: #0c4d19;
+    background-color:  #155413;
     color:  #d69c1a;
     font-style: italic;
     
@@ -133,15 +133,15 @@ a{
     background-image: url("//img/giving-img.jpg") ;
 } 
 .give-header h1{
-    font-weight: 900;
+    /* font-weight: 900;
     font-size: xx-large;
-    font-size: 60px;
+    font-size: 60px; */
 } 
 .give-header a{
     border-radius: 0%;
 }
 .thanks-support{
-    height: 15vh;
+    height: fit-content;
     padding-top: 2rem;
     padding-bottom: 2vh;
     width: 100%;
@@ -330,7 +330,13 @@ a{
    flex-basis: 40%;
    text-align: center;
 }
+.cooler-color{
+    background-color: rgb(204, 204, 204)!important;
+}
 
+.extra-height{
+    height: 2rem; 
+}
 @media screen and (min-width: 969px) {
     .jesus-img {
       padding-right: 9vw;
@@ -393,9 +399,7 @@ a{
         padding-top: 10vh;
         padding-bottom: 10vh;
     }
-    .thanks-support{
-        height: fit-content;
-    }
+   
 
     .small-dash {
     width: 40%;
@@ -438,7 +442,9 @@ a{
     .leaders-container{
         width: 80vw!important;
     }
-   
+    .extra-height{
+        height: 3rem; 
+    }
   }
 
   

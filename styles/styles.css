@@ -6,7 +6,10 @@ html, body {
 .gold-text{
     color: #9a731b;
 }
-
+.gradiant{
+    /* background: linear-gradient(to bottom, #223754, rgba(34,59,89,255)); */
+    background: transparent;
+}
 #jesus-img{
     width: 100%;
     max-height: 80vh;
@@ -190,13 +193,17 @@ a{
     width: 40%;
     flex-grow: 1;
     margin-left: -4rem;
-}
+    -ms-flex-item-align: start
+};
 #contact-info{
     background-color: white;
     width: 80vw;
     margin: 5vh 10vw;
     box-shadow: 0px 0px 10px 2px black;
-    
+}
+ #changing-order{
+       display: flex;
+    flex-direction: column;
     
 }
 #info-div p{
